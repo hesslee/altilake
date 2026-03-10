@@ -484,37 +484,22 @@ func checkForeignRepo(repoStorageType block.StorageType, logger logging.Logger, 
 var bannerTemplate = template.Must(template.New("banner").Parse(runBannerTmpl))
 
 const runBannerTmpl = `
-lakeFS {{ .Version }} - Up and running (^C to shutdown)...
+AltiLake {{ .Version }} - Up and running (^C to shutdown)...
 
 
-     ██╗      █████╗ ██╗  ██╗███████╗███████╗███████╗
-     ██║     ██╔══██╗██║ ██╔╝██╔════╝██╔════╝██╔════╝
-     ██║     ███████║█████╔╝ █████╗  █████╗  ███████╗
-     ██║     ██╔══██║██╔═██╗ ██╔══╝  ██╔══╝  ╚════██║
-     ███████╗██║  ██║██║  ██╗███████╗██║     ███████║
-     ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝     ╚══════╝
 {{ .SetupMessage }}
-│
-│ For more information on how to use lakeFS,
-│     check out the docs at https://docs.lakefs.io/quickstart/
-│
-
-│
-│ For support or any other question,                            >(.＿.)<
-│     join our Slack channel https://docs.lakefs.io/slack         (  )_
-│
 
 `
 
 const localBanner = `
 │
-│ If you're running lakeFS locally for the first time,
+│ If you're running AltiLake locally for the first time,
 │     complete the setup process at http://127.0.0.1:8000/setup
 │`
 
 var quickStartBanner = fmt.Sprintf(`
 │
-│ lakeFS running in quickstart mode.
+│ AltiLake running in quickstart mode.
 │     Login at http://127.0.0.1:8000/
 │
 │     Access Key ID    : %s

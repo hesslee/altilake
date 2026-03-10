@@ -75,7 +75,7 @@ const LoginForm = ({ loginConfig }: { loginConfig: LoginConfig }) => {
             <Card className="shadow-lg border-0 login-card">
                 <Card.Header className="text-center">
                     <div className="mt-3 mb-3">
-                        <img src="/logo.svg" alt="lakeFS" className="login-logo" />
+                        <img src="/logo.svg" alt="Altilake" className="login-logo" />
                     </div>
                 </Card.Header>
                 <Card.Body className="p-4">

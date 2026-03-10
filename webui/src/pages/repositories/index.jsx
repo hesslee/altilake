@@ -140,12 +140,12 @@ const GetStarted = ({
 }) => {
     return (
         <Card className="getting-started-card">
-            <h2 className="main-title">Welcome to lakeFS!</h2>
+            <h2 className="main-title">Welcome to Altilake!</h2>
             <Row className="text-container">
                 <Col md={7}>
                     <p className="lead mb-4">
-                        Create your first sample repository to get started with lakeFS. This includes sample data,
-                        quickstart instructions, and everything you need to explore lakeFS capabilities.
+                        Create your first sample repository to get started with Altilake. This includes sample data,
+                        quickstart instructions, and everything you need to explore Altilake capabilities.
                     </p>
 
                     {allowSampleRepoCreation && (
@@ -167,7 +167,7 @@ const GetStarted = ({
                     )}
 
                     <div className="d-flex align-items-center mt-4">
-                        <span className="learn-more">Already working with lakeFS?</span>
+                        <span className="learn-more">Already working with Altilake?</span>
                         <GettingStartedCreateRepoButton
                             className="inline-link-button"
                             text="Create an empty repository"

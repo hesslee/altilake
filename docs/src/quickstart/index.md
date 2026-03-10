@@ -6,7 +6,7 @@ next: ["Launch the quickstart environment", "./launch.md.html"]
 
 # lakeFS Quickstart
 
-**Welcome to lakeFS!**
+**Welcome to Altilake!**
 
 !!! tip
     You can use the [free trial of lakeFS Cloud](https://lakefs.io/cloud-registration) if you want to try out lakeFS without installing anything. 

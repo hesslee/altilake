@@ -11,7 +11,7 @@ export class RepositoriesPage {
     public searchInputLocator: Locator;
 
     constructor(protected page: Page) {
-        this.noRepositoriesTitleLocator = this.page.getByText("Welcome to LakeFS!");
+        this.noRepositoriesTitleLocator = this.page.getByText("Welcome to Altilake!");
         this.readOnlyIndicatorLocator = this.page.locator("text=Read-only");
         this.createRepositoryButtonLocator = this.page.getByRole("button", { name: "Create Repository" });
         this.searchInputLocator = this.page.getByPlaceholder("Search repositories...");
