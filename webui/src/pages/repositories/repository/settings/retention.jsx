@@ -157,10 +157,7 @@ const GCPolicy = ({ repo }) => {
                 </h4>
             </div>
             <p className="mt-3">
-                This policy determines for how long objects are kept in the storage after they are deleted in lakeFS.{' '}
-                <a href="https://docs.lakefs.io/howto/garbage-collection/" target="_blank" rel="noreferrer">
-                    Learn more.
-                </a>
+                This policy determines for how long objects are kept in the storage after they are deleted in Altilake.{' '}
             </p>
             <div className={'mt-3'}>{content}</div>
             <PolicyEditor onSubmit={onSubmit} onHide={() => setShowCreate(false)} show={showCreate} {...editorProps} />

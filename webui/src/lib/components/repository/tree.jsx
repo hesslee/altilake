@@ -866,10 +866,6 @@ const GetStarted = ({ config, onUpload, onImport, readOnly = false }) => {
 
     return (
         <Container className="get-started-container pb-5">
-            <div className="mb-4">
-                <img src="/getting-started.png" alt="Empty repository" className="img-fluid get-started-image" />
-            </div>
-
             <h2 className="mb-0">Your repository is ready!</h2>
             {!readOnly && <h6 className="lead mb-5">Let&apos;s add some data to get started</h6>}
 
@@ -892,16 +888,6 @@ const GetStarted = ({ config, onUpload, onImport, readOnly = false }) => {
                                     Import Data
                                 </Button>
                             </Card.Body>
-                            <Card.Footer className="text-center bg-transparent border-0">
-                                <a
-                                    href="https://docs.lakefs.io/howto/import.html"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="text-decoration-none"
-                                >
-                                    Learn more about importing
-                                </a>
-                            </Card.Footer>
                         </Card>
                     </Col>
 

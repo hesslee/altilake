@@ -202,27 +202,7 @@ const EmptyTagsState = ({ repo, onCreateTag }) => {
                         versions.
                         <br />
                         They&apos;re perfect for{' '}
-                        <a
-                            href="https://docs.lakefs.io/latest/understand/use_cases/reproducibility/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-decoration-none"
-                        >
-                            reproducibility
-                        </a>{' '}
-                        and making your data workflows more reliable.
-                    </p>
-                    <p>
-                        Learn more about{' '}
-                        <a
-                            href="https://docs.lakefs.io/latest/understand/model/#tags"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-decoration-none"
-                        >
-                            what tags are
-                        </a>{' '}
-                        and how to use them effectively.
+                        reproducibility and making your data workflows more reliable.
                     </p>
                 </div>
 
@@ -269,13 +249,6 @@ const TagList = ({ repo, after, prefix, onPaginate }) => {
                 <Paginator onPaginate={onPaginate} nextPage={nextPage} after={after} />
                 <div className={'mt-2'}>
                     A tag is an immutable pointer to a single commit.{' '}
-                    <a
-                        href="https://docs.lakefs.io/understand/model.html#tags"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        Learn more.
-                    </a>
                 </div>
             </>
         );

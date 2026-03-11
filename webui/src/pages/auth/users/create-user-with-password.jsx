@@ -38,8 +38,7 @@ const CreateUserWithPasswordForm = ({ token, email }) => {
         <Row>
             <Col md={{ offset: 4, span: 4 }}>
                 <div className="invited-welcome-msg">
-                    <div className="title">Welcome to the lake!</div>
-                    <div className="body">You were invited to use lakeFS Cloud!</div>
+                    <div className="title">Welcome to the Altilake!</div>
                 </div>
                 <Card className="create-invited-user-widget">
                     <Card.Header>Activate User</Card.Header>

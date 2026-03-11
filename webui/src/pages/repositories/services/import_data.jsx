@@ -125,12 +125,9 @@ const ImportForm = ({
     return (
         <div {...rest}>
             <Alert variant="info">
-                This feature doesn&apos;t copy data. It only creates pointers in the lakeFS metadata.
+                This feature doesn&apos;t copy data. It only creates pointers in the Altilake metadata.
                 <br />
-                lakeFS will never change objects in the import source. &#160;
-                <a href="https://docs.lakefs.io/howto/import.html" target="_blank" rel="noreferrer">
-                    Learn more
-                </a>
+                Altilake will never change objects in the import source. &#160;
             </Alert>
             <Form>
                 <Form.Group className="mt-4 form-group">

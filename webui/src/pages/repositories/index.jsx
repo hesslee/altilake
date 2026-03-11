@@ -178,8 +178,6 @@ const GetStarted = ({
                     </div>
                 </Col>
             </Row>
-
-            <img src="/getting-started.png" alt="getting-started" className="getting-started-image" />
         </Card>
     );
 };

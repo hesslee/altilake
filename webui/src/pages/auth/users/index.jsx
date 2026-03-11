@@ -112,14 +112,7 @@ const UsersContainer = ({ refresh, setRefresh, allUsers, loading, error }) => {
                 </ActionGroup>
             </ActionsBar>
             <div className="auth-learn-more">
-                Users are entities that access and use lakeFS.{' '}
-                <a
-                    href="https://docs.lakefs.io/reference/authentication.html"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Learn more.
-                </a>
+                Users are entities that access and use Altilake.{' '}
             </div>
 
             {!!deleteError && <AlertError error={deleteError} />}

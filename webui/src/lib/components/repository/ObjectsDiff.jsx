@@ -118,7 +118,7 @@ const NoContentDiff = ({ left, right, diffType }) => {
             <span>
                 <Alert variant="light">
                     <InfoIcon />{' '}
-                    {`lakeFS supports content diff for ${supportedFileExtensions.join(',')} file formats only`}
+                    {`Altilake supports content diff for ${supportedFileExtensions.join(',')} file formats only`}
                 </Alert>
             </span>
         </div>

@@ -42,7 +42,7 @@ const NavUserInfo = () => {
                     <NavDropdown.Item href={versionConfig.upgrade_url}>
                         <>
                             <div className="menu-item-notification-indicator"></div>
-                            New lakeFS version is available!
+                            New Altilake version is available!
                         </>
                     </NavDropdown.Item>
                     <NavDropdown.Divider />
@@ -86,7 +86,7 @@ const TopNav = () => {
         <Navbar variant="dark" bg="dark" expand="md" className="border-bottom">
             <Container fluid={true}>
                 <Link component={Navbar.Brand} href="/">
-                    <img src="/logo.png" alt="lakeFS" className="logo" />
+                    <img src="/logo.png" alt="Altilake" className="logo" />
                 </Link>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">

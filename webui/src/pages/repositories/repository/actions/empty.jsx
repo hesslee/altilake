@@ -68,30 +68,6 @@ export const EmptyActionsState = () => {
                         </div>
                     </div>
 
-                    <div className="d-flex flex-column flex-sm-row  gap-2 mt-4">
-                        <Button
-                            href="https://docs.lakefs.io/latest/howto/hooks/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            variant="success"
-                            size="md"
-                            className="px-3 py-2"
-                        >
-                            <BookIcon className="me-2" />
-                            Learn How to Configure Actions
-                        </Button>
-                        <Button
-                            href="https://docs.lakefs.io/latest/understand/use_cases/cicd_for_data/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            variant="outline-secondary"
-                            size="md"
-                            className="px-3 py-2"
-                        >
-                            <PlayIcon className="me-2" />
-                            CI/CD for Data Guide
-                        </Button>
-                    </div>
                 </Col>
 
                 <Col md={6}>

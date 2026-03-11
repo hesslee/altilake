@@ -33,16 +33,6 @@ export const AuthLayout = () => {
                                 setShowRBACAlert(false);
                             }}
                         >
-                            <InfoIcon /> Enhance Your Security with{' '}
-                            <Alert.Link href={'https://docs.lakefs.io/reference/security/rbac.html'}>
-                                Role-Based Access Control
-                            </Alert.Link>{' '}
-                            – Available on <Alert.Link href={'https://lakefs.cloud/register'}>lakeFS Cloud</Alert.Link>{' '}
-                            and{' '}
-                            <Alert.Link href={'https://docs.lakefs.io/understand/enterprise/'}>
-                                lakeFS Enterprise
-                            </Alert.Link>
-                            !
                         </Alert>
                     )}
                 </div>
@@ -104,15 +94,6 @@ export const AuthLayout = () => {
                                 <p>
                                     <InfoIcon /> <b>Role-based access control not configured.</b>
                                 </p>
-                                This feature is enabled on{' '}
-                                <Alert.Link href={'https://lakefs.cloud/register'}>lakeFS Cloud</Alert.Link> and{' '}
-                                <Alert.Link href={'https://docs.lakefs.io/understand/enterprise/'}>
-                                    lakeFS Enterprise
-                                </Alert.Link>
-                                .{' '}
-                                <Alert.Link href={'https://lakefs.io/blog/why-moving-acls-out-of-core-lakefs/'}>
-                                    Learn More
-                                </Alert.Link>
                             </Alert>
                         </div>
                     ) : (

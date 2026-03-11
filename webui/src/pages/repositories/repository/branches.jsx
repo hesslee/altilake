@@ -62,7 +62,7 @@ const BranchWidget = ({ repo, branch, onDelete, selected = false, onSelect, onDe
             <>
                 <p>{deleteMsg}</p>
                 <Alert variant="warning">
-                    <strong>Warning</strong> this is a system branch used for importing data to lakeFS
+                    <strong>Warning</strong> this is a system branch used for importing data to Altilake
                 </Alert>
             </>
         );
@@ -494,7 +494,7 @@ const BranchList = ({ repo, prefix, after, showHidden = false, onPaginate }) => 
                                 {branchesToDelete.some((id) => id === ImportBranchName) && (
                                     <Alert variant="warning" className="mt-2">
                                         <strong>Warning:</strong> One or more selected branches are system branches used
-                                        for importing data to lakeFS
+                                        for importing data to Altilake
                                     </Alert>
                                 )}
                             </>
@@ -520,14 +520,7 @@ const BranchList = ({ repo, prefix, after, showHidden = false, onPaginate }) => 
             </div>
             {content}
             <div className={'mt-2'}>
-                lakeFS uses a Git-like branching model.{' '}
-                <a
-                    href="https://docs.lakefs.io/understand/branching-model.html"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Learn more.
-                </a>
+                Altilake uses a Git-like branching model.{' '}
             </div>
         </div>
     );

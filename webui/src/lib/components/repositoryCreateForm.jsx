@@ -76,13 +76,6 @@ export const RepositoryCreateForm = ({ formID, config, onSubmit, formValid, setF
             <Form.Group className="mb-3">
                 <Form.Text>
                     A repository contains all of your objects, including the revision history.{' '}
-                    <a
-                        href="https://docs.lakefs.io/understand/model.html#repository"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        Learn more.
-                    </a>
                 </Form.Text>
             </Form.Group>
             <Form.Group controlId="id">

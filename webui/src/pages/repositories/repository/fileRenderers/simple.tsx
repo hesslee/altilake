@@ -32,7 +32,7 @@ export const UnsupportedFileType: FC<RendererComponent> = ({ path, fileExtension
             <div>
                 Could not render: <code>{path}</code>: <br />
             </div>
-            <div>{`lakeFS doesn't know how to render this file (extension = "${fileExtension}", content-type = "${contentType}")`}</div>
+            <div>{`Altilake doesn't know how to render this file (extension = "${fileExtension}", content-type = "${contentType}")`}</div>
         </Alert>
     );
 };

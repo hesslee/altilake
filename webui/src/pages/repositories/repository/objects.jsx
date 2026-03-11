@@ -1217,10 +1217,6 @@ const NoGCRulesWarning = ({ repoId }) => {
         return (
             <Alert variant="warning" onClose={closeAndRemember} dismissible>
                 <strong>Warning</strong>: No garbage collection rules configured for this repository.{' '}
-                <a href="https://docs.lakefs.io/howto/garbage-collection/" target="_blank" rel="noreferrer">
-                    Learn More
-                </a>
-                .
             </Alert>
         );
     }

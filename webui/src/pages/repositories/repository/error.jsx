@@ -40,11 +40,6 @@ const BareRepositoryContainer = () => (
             This repository is empty (bare) and has no branches or commits. Bare repositories are typically used for
             backup/restore operations with <code>lakectl refs-restore</code>.
         </p>
-        <p>
-            <a href="https://docs.lakefs.io/howto/backup-and-restore.html" target="_blank" rel="noopener noreferrer">
-                Learn more about bare repositories.
-            </a>
-        </p>
     </Alert>
 );
 
